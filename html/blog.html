@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        section > p {
+            font-size: 16px;
+            color: blue;
+        }
+
+        section > p:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            background-color: cyan;
+        }
+
+        section > button:hover {
+            cursor: pointer;
+            background-color: cyan;
+        }
+
+        /* 2n merupakan kelipatan, setiap kelipatan 2 akan terkena properti berikut */
+        section:nth-of-type(2n) {
+            background-color: gray;
+        }
+
+        a + button {
+            background-color: antiquewhite;
+        }
+
+        input[type="password"] {
+            color: red;
+        }
+
+        section h3::first-letter {
+            font-size: xx-large;
+        }
+
+        section p::first-line {
+            color: red;
+        }
+
+        section h3::before {
+            content: '*';
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Kumpulan Joke Bapack-bapack</h1>
+        <input type="text" placeholder="search" value=""><button>search</button>
+        <input type="password">
+        <hr>
+        <section>
+            <h3>Udang kalau dari Cirebon namanya udang rebon kalau dari Inggris? 
+                Udang Robin</h3>
+            <p>Dipublish oleh: <span>John</span></p>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Voluptatem tenetur ducimus perferendis velit tempora, minus sequi 
+                    mollitia exercitationem odio magnam, ab esse temporibus eum aut 
+                    nostrum quos optio in. Incidunt.</p>
+            </div>
+            <button>Vote +</button>
+        </section>
+        <hr>
+        <section>
+            <h3>Alat masak apa yang suka kesel? Paan cii.....!</h3>
+            <p>Dipublish oleh: <span>John</span></p>
+            <button>Vote +</button>
+        </section>
+        <hr>
+        <section>
+            <h3>Gula, gula apa yang bukan gula merah? Gula Aren't!</h3>
+            <p>Dipublish oleh: <span>John</span></p>
+            <button>Vote +</button>
+        </section>
+        <section>
+            <h3>Udang kalau dari Cirebon namanya udang rebon kalau dari Inggris? 
+                Udang Robin</h3>
+            <p>Dipublish oleh: <span>John</span></p>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Voluptatem tenetur ducimus perferendis velit tempora, minus sequi 
+                    mollitia exercitationem odio magnam, ab esse temporibus eum aut 
+                    nostrum quos optio in. Incidunt.</p>
+            </div>
+            <button>Vote +</button>
+        </section>
+        <hr>
+        <section>
+            <h3>Alat masak apa yang suka kesel? Paan cii.....!</h3>
+            <p>Dipublish oleh: <span>John</span></p>
+            <button>Vote +</button>
+        </section>
+        <hr>
+        <section>
+            <h3>Gula, gula apa yang bukan gula merah? Gula Aren't!</h3>
+            <p>Dipublish oleh: <span>John</span></p>
+            <button>Vote +</button>
+        </section>
+        <p>Joke ini semata mata hanya hiburan</p>
+        <a href="#">Link</a>
+        <button>Kirim</button>
+    </div>
+</body>
+</html>

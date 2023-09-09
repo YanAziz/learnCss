@@ -1,0 +1,28 @@
+* {
+    background-color: #8BF5FA;
+}
+
+
+h1, h2, h3 {
+    color: #205E61;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#list2 {
+    color: black;
+}
+
+.mark {
+    background-color: red;
+}
